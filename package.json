@@ -55,9 +55,8 @@
             "vite": "6.3.5"
       },
       "scripts": {
-       "dev": "vite",
-       "build": "vite build && cd Server && npm install && npm run build",
-      "start": "node Server/dist/index.js"
+             "dev": "vite",
+             "build": "vite build",
+             "preview": "vite preview"
       }
-
 }
