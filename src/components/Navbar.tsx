@@ -35,7 +35,7 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
             <div className="flex items-center space-x-2">
               <div className="w-10 h-8 bg-gradient-to-br from-slate-700 to-slate-900 rounded-lg flex items-center justify-center">
                 <ImageWithFallback
-                 src="/images/LOGO.SVG"
+                 src="/images/logo-512.png"
                  alt="Luxury marble tiles"
                  className=" h-full w-full object-cover  "
                  />
