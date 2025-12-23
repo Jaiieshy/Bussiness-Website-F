@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 interface NavbarProps {
   currentPage: string;
@@ -32,8 +33,12 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
           {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => onNavigate('home')}>
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-slate-700 to-slate-900 rounded-lg flex items-center justify-center">
-                <span className="text-white">DM</span>
+              <div className="w-10 h-8 bg-gradient-to-br from-slate-700 to-slate-900 rounded-lg flex items-center justify-center">
+                <ImageWithFallback
+                 src="/images/LOGO.SVG"
+                 alt="Luxury marble tiles"
+                 className=" h-full w-full object-cover  "
+                 />
               </div>
               <span className="text-slate-900">New Deepak Marble and Tiles </span>
             </div>

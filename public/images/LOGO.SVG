@@ -1,0 +1,18 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="300" fill="#0A2E6D"/>
+
+  <!-- Logo Text -->
+  <text
+    x="300"
+    y="200"
+    text-anchor="middle"
+    font-family="Times New Roman, Georgia, serif"
+    font-size="180"
+    font-weight="700"
+    fill="#FFFFFF"
+    letter-spacing="8"
+  >
+    DM
+  </text>
+</svg>
